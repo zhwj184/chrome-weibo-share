@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "weibo share",
+	"version": "1.0",
+	"description": "sina weibo share",
+	
+	"browser_action": {
+		"default_icon": "sina.jpg",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"http://hits.sinajs.cn/",
+		"http://timg.sjs.sinajs.cn/",
+		"http://tjs.sjs.sinajs.cn/",
+		"http://simg.sinajs.cn/",
+		"https://api.weibo.com/",
+		"http://service.weibo.com/share/share.php",
+		"http://js.t.sinajs.cn/",
+		"http://tjs.sjs.sinajs.cn/",
+		"http://*.sinajs.com/",
+		"http://*.weibo.com/",
+		"http://*.sina.com/",
+		"tabs"		
+	]
+}
